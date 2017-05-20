@@ -1,0 +1,37 @@
+1. Qual a diferença entre JRE e JDK?
+
+	JRE (Java Runtime Environment) é o ambiente de execução Java.
+	JDK (Java Development Kit) é a soma da JRE, de bibliotecas e de ferramentas para o desenvolvimento Java.
+
+2. Quais são os componentes da JDK?
+
+	JRE, bibliotecas (API) e ferramentas.
+
+3. Instale o JDK na sua máquina.
+4. Crie uma classe que imprima o seguinte texto “Terminei o módulo 3 com um programa Java!”.
+5. Compile e execute a classe desenvolvida no exercício anterior.
+6. Comente o trecho de código responsável pela execução da impressão, compile e execute.
+7. Mude o nome do método “main” para “start”, compile e execute. O que aconteceu?
+
+	Error: Main method not found in class Teste, please define the main method as:
+	public static void main(String[] args)
+	
+	A classe exige um método main.
+
+
+8. Mude novamente o nome do método “main”, agora para “#main”, compile e execute. O que aconteceu?
+
+Teste.java:2: error: illegal character: \35
+	public static void #main(String[] parametros) {
+	                   ^
+Teste.java:2: error: invalid method declaration; return type required
+	public static void #main(String[] parametros) {
+	                    ^
+2 errors
+
+	Foi utilizado um indentificador invalido (#).
+
+9. Qual dos exercícios, 7 ou 8, gerou uma exceção durante a compilação? E durante a execução?
+
+	Compilação: 8
+	Execução: 7
