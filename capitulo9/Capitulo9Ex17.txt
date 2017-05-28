@@ -1,0 +1,1 @@
+Utilizaria o HashSet, dado que não há duplicatas no sistema e que a ordem de inserção não é importante.

@@ -1,0 +1,1 @@
+As médias ficaram diferentes porque o HashSet (ou qualquer Set) não permite duplicatas, dessa maneira ignorando 2 dos números inseridos e obtendo uma média diferente.
