@@ -1,4 +1,4 @@
-public class Quadrado extends Quadrilatero {
+public class Quadrado extends Quadrilatero implements FiguraGeometrica {
 	public Quadrado(int lado) {
 		super(lado, lado, lado, lado);
 		if (lado <= 0)
