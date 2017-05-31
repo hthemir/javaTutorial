@@ -1,4 +1,4 @@
-public class Retangulo extends Quadrilatero {
+public class Retangulo extends Quadrilatero implements FiguraGeometrica {
 	public Retangulo(int ladoA, int ladoB) {
 		super(ladoA, ladoB, ladoA, ladoB);
 		if (ladoA <= 0 || ladoB <= 0)
